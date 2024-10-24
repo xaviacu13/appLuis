@@ -414,9 +414,9 @@ if (content.locals) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/xavi.13/xavi/diogo/GranosLuna/appGranosLuna/src/styles.css */"./src/styles.css");
-__webpack_require__(/*! /Users/xavi.13/xavi/diogo/GranosLuna/appGranosLuna/node_modules/bootstrap/dist/css/bootstrap.css */"./node_modules/bootstrap/dist/css/bootstrap.css");
-module.exports = __webpack_require__(/*! /Users/xavi.13/xavi/diogo/GranosLuna/appGranosLuna/node_modules/ngx-toastr/toastr.css */"./node_modules/ngx-toastr/toastr.css");
+__webpack_require__(/*! /Users/xavi.13/www/Luis/appLuis/src/styles.css */"./src/styles.css");
+__webpack_require__(/*! /Users/xavi.13/www/Luis/appLuis/node_modules/bootstrap/dist/css/bootstrap.css */"./node_modules/bootstrap/dist/css/bootstrap.css");
+module.exports = __webpack_require__(/*! /Users/xavi.13/www/Luis/appLuis/node_modules/ngx-toastr/toastr.css */"./node_modules/ngx-toastr/toastr.css");
 
 
 /***/ })
