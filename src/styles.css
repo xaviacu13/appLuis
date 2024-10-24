@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+table{
+    width: 100%;
+}
+
+.example-container{
+    overflow-x: scroll;
+}
+
+th{
+    background-color: rgb(157, 36, 36);
+    color: white;
+    margin: 0 15px 0;
+}
+
+table{
+    border-collapse: collapse
+}
+
+tr:hover{
+    background-color: #dfa29e; 
+}
+
+h2{
+    color: #7c2009
+}

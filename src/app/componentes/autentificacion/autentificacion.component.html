@@ -1,0 +1,325 @@
+<form #formLogin="ngForm" (submit)="onLogin()">
+  <div class="text-center">
+    <!-- <img src="assets/images/portada/granosluna_portada4.jpeg" width="1220" height="470" /> -->
+  </div>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="assets/images/portada/p1.webp" alt="First slide" height="550">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Ferreteria Luis le ofrece todo tipo de accesorios para tu casa</h3>
+          <p>Pedidos al whatsapp 72624694</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/images/portada/p2.webp" alt="Second slide" height="550">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Ferreteria Luis le ofrece todo tipo de accesorios para tu casa</h3>
+          <p>Pedidos al whatsapp 72624694</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/images/portada/p3.jpg" alt="Third slide" height="550">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Ferreteria Luis le ofrece todo tipo de accesorios para tu casa</h3>
+          <p>Pedidos al whatsapp 72624694</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/images/portada/p5.jpg" alt="portada lico Muyupampa" height="550">
+
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Siguiente</span>
+    </a>
+  </div>
+
+  <div class="mainContent">
+    <div>
+      <div class="titleContent">
+        <h3 id="cervezas" class="contacts-text"> MUEBLES </h3>
+        <img src="assets/images/logo/logo.png" alt="logo" height="60px" width="60px" class="rounded-circle">
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4 container-all cardContent">
+        <div class="col">
+          <div class="card">
+            <img src="assets/images/productos/m2.jpeg" class="card-img-top" alt="budveiser" height="380">
+            <div class="cardDes">
+              <div class="priceContent">
+                <h5 class="card-title">SOFA</h5>
+                <p class="card-text">De tres piezas con tapiceria de alta calidad</p>
+              </div>
+              <div class="priceContent">
+                <button href="#" class="btn btn-secondary" disabled> Bs. 5000.00</button>
+                <a href="https://wa.me/59174439889?text=Hola, quiero sofa de tres piesas por favor?" class="btn btn-primary">Pedir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/images/productos/m3.jpeg" class="card-img-top" alt="Adida Shoes" height="380">
+            <div class="cardDes">
+              <div class="priceContent">
+                <h5 class="card-title">MESA FAMILIAR</h5>
+                <p class="card-text">Con 10 sillas de material durable</p>
+              </div>
+              <div class="priceContent">
+                <button href="#" class="btn btn-secondary" disabled> Bs. 3000.00</button>
+                <a href="https://wa.me/59174439889?text=Hola, quiero comprar la mesa de 6 sillas por favor?" class="btn btn-primary">Pedir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/images/productos/m4.jpeg" class="card-img-top" alt="midi" height="380">
+            <div class="cardDes">
+              <div class="priceContent">
+                <h5 class="card-title">CAMA</h5>
+                <p class="card-text">Con colchon de espuma de 18 pulgadas</p>
+              </div>
+              <div class="priceContent">
+                <button href="#" class="btn btn-secondary" disabled> Bs. 7500.00</button>
+                <a href="https://wa.me/59174439889?text=Hola, quiero la cama por favor?" class="btn btn-primary">Pedir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/images/productos/m5.jpeg" class="card-img-top" alt="midi" height="380">
+            <div class="cardDes">
+              <div class="priceContent">
+                <h5 class="card-title">MESA</h5>
+                <p class="card-text">Con 4 sillas de madera roble</p>
+              </div>
+              <div class="priceContent">
+                <button href="#" class="btn btn-secondary" disabled> Bs. 3000.00</button>
+                <a href="https://wa.me/59174439889?text=Hola, quiero la mesa de 4 sillas por favor?" class="btn btn-primary">Pedir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/images/productos/m6.webp" class="card-img-top" alt="midi" height="380">
+            <div class="cardDes">
+              <div class="priceContent">
+                <h5 class="card-title">ROPERO</h5>
+                <p class="card-text">Matrimonial de tres cuerpos</p>
+              </div>
+              <div class="priceContent">
+                <button href="https://wa.me/59174439889?text=Hola, quiero ropero matrimonial por favor?" class="btn btn-secondary" disabled> Bs. 8500.00</button>
+                <a href="#" class="btn btn-primary">Pedir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/images/productos/m7.jpg" class="card-img-top" alt="midi" height="380">
+            <div class="cardDes">
+              <div class="priceContent">
+                <h5 class="card-title">PLACAR</h5>
+                <p class="card-text">Con 4 puertas de madera quina</p>
+              </div>
+              <div class="priceContent">
+                <button href="#" class="btn btn-secondary" disabled> Bs. 2000.00</button>
+                <a href="https://wa.me/59174439889?text=Hola, quiero placar de 4 puertas por favor?" class="btn btn-primary">Pedir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="titleContent">
+        <h3 id="whisky" class="contacts-text"> BLINDEX </h3>
+        <img src="assets/images/logo/logo.png" alt="logo" height="60px" width="60px" class="rounded-circle">
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4 container-all ">
+        <div class="col">
+          <div class="card">
+            <img src="assets/images/productos/b3.webp" class="card-img-top" alt="budveiser" height="380">
+            <div class="cardDes">
+              <div class="priceContent">
+                <h5 class="card-title">MAMPARA</h5>
+                <p class="card-text">Vidre para el bano de material fina</p>
+              </div>
+              <div class="priceContent">
+                <button href="#" class="btn btn-secondary" disabled> Bs. 3200.00</button>
+                <a href="https://wa.me/59174439889?text=Hola, quiero  la mampara para el banoo por favor?" class="btn btn-primary">Pedir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/images/productos/b2.webp" class="card-img-top" alt="Adida Shoes" height="380">
+            <div class="cardDes">
+              <div class="priceContent">
+                <h5 class="card-title">CERRADURA</h5>
+                <p class="card-text">Lave alemana con tres copias</p>
+              </div>
+              <div class="priceContent">
+                <button href="#" class="btn btn-secondary" disabled> Bs. 530.00</button>
+                <a href="https://wa.me/59174439889?text=Hola, quiero la llave por favor?" class="btn btn-primary">Pedir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/images/productos/b1.jpg" class="card-img-top" alt="midi" height="380">
+            <div class="cardDes">
+              <div class="priceContent">
+                <h5 class="card-title">PUERTA</h5>
+                <p class="card-text"> De dos manos material resistente</p>
+              </div>
+              <div class="priceContent">
+                <button href="#" class="btn btn-secondary" disabled> Bs. 4070.00</button>
+                <a href="https://wa.me/59174439889?text=Hola, quiero la perta de bidrio por favor?" class="btn btn-primary">Pedir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="titleContent">
+        <h3 id="roones" class="contacts-text"> PLOMERIA </h3>
+        <img src="assets/images/logo/logo.png" alt="logo" height="60px" width="60px" class="rounded-circle">
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4 container-all ">
+        <div class="col">
+          <div class="card">
+            <img src="assets/images/productos/p2.jpeg" class="card-img-top" alt="budveiser" height="380">
+            <div class="cardDes">
+              <div class="priceContent">
+                <h5 class="card-title">DUCHA</h5>
+                <p class="card-text">Kit de 4 piezas de marca tramontina</p>
+              </div>
+              <div class="priceContent">
+                <button href="#" class="btn btn-secondary" disabled> Bs. 2000.00</button>
+                <a href="https://wa.me/59174439889?text=Hola, quiero la  ducha de 4 piezas por favor?" class="btn btn-primary">Pedir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/images/productos/p3.webp" class="card-img-top" alt="Corona" height="380">
+            <div class="cardDes">
+              <div class="priceContent">
+                <h5 class="card-title">ACCESORIOS DE BANO</h5>
+                <p class="card-text"> Kit completo en oferta</p>
+              </div>
+              <div class="priceContent">
+                <button href="#" class="btn btn-secondary" disabled> Bs. 5470.00</button>
+                <a href="https://wa.me/59174439889?text=Hola, quiero el el kit completo para bano por favor?" class="btn btn-primary">Pedir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/images/productos/p4.png" class="card-img-top" alt="midi" height="380">
+            <div class="cardDes">
+              <div class="priceContent">
+                <h5 class="card-title">LAVAMANO</h5>
+                <p class="card-text">Base de madera mas espejo</p>
+              </div>
+              <div class="priceContent">
+                <button href="#" class="btn btn-secondary" disabled> Bs. 1000.00</button>
+                <a href="https://wa.me/59174439889?text=Hola, quiero lavamanos con espejo por favor?" class="btn btn-primary">Pedir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="titleContent">
+        <h3 id="otros" class="contacts-text"> OTROS </h3>
+        <img src="assets/images/logo/logo.png" alt="logo" height="60px" width="60px" class="rounded-circle">
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4 container-all ">
+        <div class="col">
+          <div class="card">
+            <img src="assets/images/productos/o1.webp" class="card-img-top" alt="budveiser" height="380">
+            <div class="cardDes">
+              <div class="priceContent">
+                <h5 class="card-title">TALADRO</h5>
+                <p class="card-text">Atornillador inalambrico de 100w.</p>
+              </div>
+              <div class="priceContent">
+                <button href="#" class="btn btn-secondary" disabled> Bs. 3220.00</button>
+                <a href="https://wa.me/59174439889?text=Hola," class="btn btn-primary">Pedir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/images/productos/o2.png" class="card-img-top" alt="Adida Shoes" height="380">
+            <div class="cardDes">
+              <div class="priceContent">
+                <h5 class="card-title">AMOLADORA</h5>
+                <p class="card-text">Cortadora circular de 150W</p>
+              </div>
+              <div class="priceContent">
+                <button href="#" class="btn btn-secondary" disabled> Bs. 1220.00</button>
+                <a href="https://wa.me/59174439889?text=Hola," class="btn btn-primary">Pedir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/images/productos/o3.png" class="card-img-top" alt="midi" height="380">
+            <div class="cardDes">
+              <div class="priceContent">
+                <h5 class="card-title">MEZCLADORA</h5>
+                <p class="card-text">Trompo de concreto de 1 bulto.</p>
+              </div>
+              <div class="priceContent">
+                <button href="#" class="btn btn-secondary" disabled> Bs. 5600.00</button>
+                <a href="https://wa.me/59174439889?text=Hola," class="btn btn-primary">Pedir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="footer">
+      <div class="row">
+        <a class="col-lg-3 col-sm-6 col-xs-12"
+          href="https://wa.me/59172624694?text=Hola Comercio Luis, quiero hacer un pedido de:"><i
+            class='bx bxl-whatsapp bx-md colorWhatsapp'></i>72624694</a>
+        <a class="col-lg-3 col-sm-6 col-xs-12" href="https://www.instagram.com/"><i
+            class='bx bxl-instagram bx-md colorInsta'></i>Luis ferreterias</a>
+        <a class="col-lg-3 col-sm-6 col-xs-12" href="https://twitter.com/"><i class='bx bxl-twitter bx-md colorTwitter'></i>Luis ferreterias</a>
+        <a class="col-lg-3 col-sm-6 col-xs-12" href="https://www.facebook.com/luisangel.condorimoscoso?locale=es_LA">
+          <i class='bx bxl-facebook bx-md colorFace'></i>Ferreteria Luis
+        </a>
+      </div>
+    </div><br>
+  </div>
+</form>
